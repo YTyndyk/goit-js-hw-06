@@ -14,5 +14,5 @@ return itemEl;
 
 });
 console.log(listEl);
-const list = document.querySelector('ul');
+const list = document.querySelector('#ingredients');
 list.append(...listEl);
