@@ -11,7 +11,7 @@ function onFormSubmit(event) {
 	const password = formElements.password.value;
 	const formData = { email, password };
 
-	if (email && password === "") {
+	if (email === "" || password === "") {
 		alert("Заповнені не всі поля!");
 	} else {
 		console.log(formData);
